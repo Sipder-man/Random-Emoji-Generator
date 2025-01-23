@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to right top, #e54ba2, #d253b4, #b95cc2, #9d65cd, #7b6cd4, #5c75d6, #3a7bd3, #0080cd, #0086c0, #0089ac, #008a96, #298982);    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: cursive;
+     
+}
+h2{
+    font-size: 2.5rem;
+}
+.section{
+    text-align: center;
+
+}
+.btn{
+    font-size: 5rem;
+    border: none;
+    border-radius: 10px;
+    background: rgb(255,255,255,.3);
+    padding: 15px;
+    cursor: pointer;
+    filter: grayscale();
+    transition: filter .2s ease-in-out;
+
+}
+.btn:hover{
+    font-size: 5.2rem;
+    filter:grayscale(0);
+}
+.p{
+    font-weight: 600;
+    font-size: large;
+    color: blue;
+}
